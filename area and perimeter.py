@@ -1,0 +1,7 @@
+l=int(input("Enter the length of the rectangle: "))
+b=int(input("Enter the breadth of the rectangle: "))
+r=int(input("Enter the radius of the cylinder: "))
+h=int(input("Enter the height of the cylinder: "))
+print("Area of rectangle: ",l*b)
+print("Perimeter of the rectangle: ",2*(l+b))
+print("TSA of cylinder: ",2*22/7*r*(r+h))
